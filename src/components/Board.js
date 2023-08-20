@@ -9,7 +9,7 @@ function Board({ nrows = 5, ncols = 5 }) {
     for (let y = 0; y < nrows; y++) {
       let row = [];
       for (let x = 0; x < ncols; x++) {
-        row.push(Math.random() < 0.25);  // 25% chance of light being on initially
+        row.push(Math.random() < 0.25);  
       }
       board.push(row);
     }

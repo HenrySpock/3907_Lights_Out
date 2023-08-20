@@ -4,10 +4,9 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #c2c2c2; /* Optional: to maintain the dark background */
+  background-color: #c2c2c2; 
 }
-
-/* Additional styles for the board table to center it within the App div */
+ 
 .Board {
   margin: auto;
 }
